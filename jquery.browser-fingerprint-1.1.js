@@ -1,4 +1,4 @@
-//==========================Browserprint-256 v1============================
+//==========================Browserprint-256 v1.1============================
 // To build an anonymous "identity", the browser is queried
 // for a list of its plugins, the screen size and several other things, then
 // hashes them.  These bits of information produce an unique "fingerprint";
