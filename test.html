@@ -1,0 +1,13 @@
+<html>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="jquery.browser-fingerprint-1.1.js"></script>
+  <script src="sha256.js"></script>
+  <script>
+  $(document).ready(function() {
+     $('#message').append($('<li>').text(jQuery.fingerprint().concat(' <---this is your fingerprint.')));
+  });
+  </script>
+  <ul id="message"></ul>
+</body>
+</html>
