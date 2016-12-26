@@ -11,6 +11,7 @@
 // Copyright (c) 2016 Randy Delvaux under the MIT license.
 // https://github.com/rcurtiss/browserprint-256
 //
+//
 // Tools can have many uses. Please build responsibly.
 
 ( function($) {
